@@ -2,23 +2,25 @@ package com.cgnal.corenlp
 
 import java.net.URLEncoder
 
+import akka.actor.ActorSystem
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import akka.http.scaladsl.model.HttpEntity.Strict
 import akka.http.scaladsl.model.headers.RawHeader
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.unmarshalling.Unmarshal
-import com.cgnal.corenlp.RosetteEntityExtractor.RosetteContent
+import akka.stream.ActorMaterializer
 import com.typesafe.config.{Config, ConfigFactory}
 import spray.json._
 
 import scala.collection.immutable.IndexedSeq
 import scala.concurrent.duration._
-import scala.concurrent.{Await, Future}
+import scala.concurrent.{ExecutionContext, Await, Future}
 
 /**
   *
   */
-object OpenCalaisEntityExtractor extends NamedEntityExtractor with HttpClient with SprayJsonSupport with DefaultJsonProtocol {
+class OpenCalaisEntityExtractor(implicit val system: ActorSystem,implicit val execContext:ExecutionContext,implicit val materializer:ActorMaterializer) extends NamedEntityExtractor with HttpClient with SprayJsonSupport with DefaultJsonProtocol {
+
 
   private val config: Config = ConfigFactory.load()
 

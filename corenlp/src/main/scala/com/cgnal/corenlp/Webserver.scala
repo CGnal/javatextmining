@@ -3,24 +3,26 @@ package com.cgnal.corenlp
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
-import akka.stream.{ActorMaterializer, ActorMaterializerSettings}
+import akka.stream.ActorMaterializer
 import com.typesafe.config.{Config, ConfigFactory}
 import com.typesafe.scalalogging.Logger
 import org.slf4j.LoggerFactory
 import spray.json._
 
 import scala.collection.mutable.ListBuffer
+import scala.concurrent.ExecutionContext
 
 /**
   *
   */
-object WebServer extends EntityExtractor with AkkaEnvironment {
+class WebServer(implicit val system: ActorSystem,implicit val execContext:ExecutionContext,implicit val materializer:ActorMaterializer) extends EntityExtractor with AkkaEnvironment  {
+
 
   private val logger = Logger(LoggerFactory.getLogger(this.getClass))
   val configuration: Config = ConfigFactory.load()
-  val alchemyEntityExtractor = AlchemyEntityExtractor
-  val rosetteEntityExtractor = RosetteEntityExtractor
-  val openCalaisEntityExtractor = OpenCalaisEntityExtractor
+  val alchemyEntityExtractor = new AlchemyEntityExtractor()
+  val rosetteEntityExtractor = new RosetteEntityExtractor()
+  val openCalaisEntityExtractor = new OpenCalaisEntityExtractor()
 
   val routes = {
     pathPrefix("rest") {
@@ -170,9 +172,8 @@ object WebServer extends EntityExtractor with AkkaEnvironment {
     Http().bindAndHandle(routes, host, port)
   }
 
-  def main(args: Array[String]) {
-    start()
-  }
-
 
 }
+
+
+

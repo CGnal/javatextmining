@@ -3,8 +3,10 @@ package com.cgnal.corenlp
 import java.io.File
 import java.nio.file.{Files, Path, Paths}
 
+import akka.actor.ActorSystem
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.unmarshalling.Unmarshal
+import akka.stream.{ActorMaterializerSettings, ActorMaterializer}
 import com.typesafe.config.{Config, ConfigFactory}
 
 import scala.concurrent.duration._
@@ -13,14 +15,19 @@ import scala.concurrent.{Await, Future}
 /**
   *
   */
-object NamedEntityExtractionBenchmark extends HttpClient {
+object NamedEntityExtractionBenchmark extends HttpClient  with AkkaEnvironment{
 
   def readWholeFileToString(resource: String): String = {
     new String(Files.readAllBytes(Paths.get(resource)))
   }
 
+  implicit val system = ActorSystem()
+  implicit val materializer =
+    ActorMaterializer(ActorMaterializerSettings(system)
+      .withInputBuffer(initialSize = 16384, maxSize = 16384*8))
+  implicit val execContext = system.dispatcher
 
-  val webserver = WebServer
+  val webserver = new WebServer()
 
   def main(args: Array[String]) {
 
@@ -95,7 +102,6 @@ object NamedEntityExtractionBenchmark extends HttpClient {
     })
 
     system.shutdown()
-    webserver.system.shutdown()
   }
 
   override val host: String = "localhost"

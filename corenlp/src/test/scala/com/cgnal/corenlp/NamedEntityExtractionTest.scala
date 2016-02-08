@@ -1,31 +1,30 @@
 package com.cgnal.corenlp
 
 import akka.actor.ActorSystem
-import akka.http.scaladsl.model.headers.`Content-Type`
-import com.typesafe.config.{ConfigFactory, Config}
+import akka.http.scaladsl.model._
+import akka.stream.scaladsl._
+import akka.stream.{ActorMaterializer, ActorMaterializerSettings}
 import org.scalatest.{BeforeAndAfterAll, BeforeAndAfterEach, FunSuite}
 import org.slf4j.LoggerFactory
 
-
-import akka.http.scaladsl.{model, Http}
-import akka.stream.{Materializer, ActorMaterializer}
-import akka.stream.scaladsl._
-
-import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
-
-import akka.http.scaladsl.model._
+import scala.concurrent.{Await, Future}
 
 /**
   *
   */
 class NamedEntityExtractionTest extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll with HttpClient {
 
+  implicit val system = ActorSystem()
+  implicit val materializer = ActorMaterializer(ActorMaterializerSettings(system)
+      .withInputBuffer(initialSize = 16384, maxSize = 16384*8))
+  implicit val execContext = system.dispatcher
+
   import akka.http.scaladsl.unmarshalling.Unmarshal
 
   private val logger = LoggerFactory.getLogger(this.getClass)
 
-  val webserver = WebServer
+  val webserver = new WebServer()
   webserver.start()
 
   val host = "localhost"

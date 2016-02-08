@@ -1,15 +1,17 @@
 package com.cgnal.corenlp
 
+import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.{HttpResponse, HttpRequest}
+import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source, Flow}
 
-import scala.concurrent.Future
+import scala.concurrent.{ExecutionContext, Future}
 
 /**
   *
   */
-trait HttpClient extends AkkaEnvironment{
+trait HttpClient extends AkkaEnvironment {
 
   lazy val connectionFlow: Flow[HttpRequest, HttpResponse, Future[Http.OutgoingConnection]] =
     Http().outgoingConnection(host, port)
@@ -32,6 +34,5 @@ trait HttpClient extends AkkaEnvironment{
   val host:String
   val port:Int
 
-  implicit val execContext = system.dispatcher
 
 }

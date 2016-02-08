@@ -5,6 +5,7 @@ import java.nio.file.{Files, Paths}
 import java.util
 
 import edu.stanford.nlp.simple.{Sentence, _}
+
 import scala.collection.JavaConversions._
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer;

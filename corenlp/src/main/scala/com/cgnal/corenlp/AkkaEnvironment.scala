@@ -1,20 +1,16 @@
 package com.cgnal.corenlp
 
 import akka.actor.ActorSystem
-import akka.stream.{ActorMaterializerSettings, ActorMaterializer}
-import com.cgnal.corenlp.RosetteEntityExtractor._
+import akka.stream.ActorMaterializer
+import scala.concurrent.ExecutionContext
 
 /**
   *
   */
 trait AkkaEnvironment {
 
-  implicit val system = ActorSystem()
-  implicit val materializer =
-    ActorMaterializer(ActorMaterializerSettings(system)
-      .withInputBuffer(initialSize = 16384, maxSize = 16384*8))
-
-
-
+  protected[this] implicit def system: ActorSystem
+  protected[this] implicit def materializer: ActorMaterializer
+  protected[this] implicit def execContext: ExecutionContext
 
 }
