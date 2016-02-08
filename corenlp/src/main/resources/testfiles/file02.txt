@@ -7,11 +7,22 @@ PERSON Ruzbeh Bacha
 PERSON Taavet Hinrikus
 PERSON Richard Branson
 PERSON Ilya Pozin
-PERSON Andreessen Horowitz
+ORGANIZATION Andreessen Horowitz
+ORGANIZATION Lehman Brothers
 ORGANIZATION Lehman Brothers
 ORGANIZATION Forbes
 ORGANIZATION Level39
 ORGANIZATION TransferWise
+ORGANIZATION TransferWise
+ORGANIZATION TransferWise
+ORGANIZATION TransferWise
 ORGANIZATION City Falcon
+ORGANIZATION City Falcon
+ORGANIZATION City Falcon
+ORGANIZATION City Falcon
+ORGANIZATION City Falcon
+ORGANIZATION CrediFi
+ORGANIZATION CrediFi
+ORGANIZATION CrediFi
 ORGANIZATION CrediFi
 ORGANIZATION Bespoke Investment Group

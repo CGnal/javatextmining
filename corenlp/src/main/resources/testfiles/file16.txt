@@ -1,0 +1,39 @@
+Nine of the world's biggest banks on Tuesday threw their weight behind blockchain, the technology that powers bitcoin. Barclays, BBVA, Commonwealth Bank of Australia, Credit Suisse, JPMorgan, State Street, Royal Bank of Scotland, and UBS have all formed a partnership to draw up industry standards and protocols for using the blockchain in banking. The partnership is being led by R3, a startup with offices in New York and London headed by David Rutter, the former CEO of ICAP Electronic Broking and a 32-year veteran of Wall Street. Rutter told Business Insider that the plan is to build the  fabric  of blockchain technology for banking, as well as develop commercial applications for banks and financial firms. He told Business Insider that other banks have already signed up to the partnership, but the timing of the release means they could not be named. The Financial Times reports that Goldman Sachs are also involved in the partnership. The blockchain is the software that both powers and regulates cryptocurrency bitcoin. In its most basic form, it records ownership of bitcoin — money — and transactions — one person paying another. Transactions are signed off by the parties involved using the software, then added to the blockchain, a long string of code that records all activity. Once other transactions are added on in front of an exchange, the transaction is stuck there forever and can't be changed, in the same way you can't change a brick once it's been built into a wall. The software cuts out the need for a  trusted middleman  to sit in between parties in a transaction as it acts as that middleman. This makes transactions quicker, cheaper, and easier when compared to the current systems banks use. Banks are therefore keen to see if it can be adapted for use with traditional currency, rather than just bitcoin. The blockchain uses open ledger technology, meaning all of these transactions are free for anyone to look at and not stashed in some private data centre in Canary Wharf. Anyone can theoretically check to see if someone's using stolen bitcoin and this adds a level of transparency to the system. Top banks including Barclays, Citi, Santander, and UBS have all expressed interest in the blockchain but this is the first time the banks have worked together on a project. Rutter says he began approaching banks around 15 months ago after visiting around 30 blockchain and bitcoin companies he was considering investing in. He says:  The lightbulb went off that distributed ledger technology could be to finance what the internet was to media. Rutter says R3 has drawn up a  wish list  of what its banking partners want to use blockchain technology for, which covers  everything from issuance, to clearing and settlement and smart contracts, where the code is the contract and it saves on back office costs. Barclays' Derek White recently told Business Insider that the bank has identified 45 potential uses for blockchain technology, while Santander told Business insider it is looking at 25 uses. He says:  I think broadly speaking we'll be able to demonstrate within 1 to 2 years that the technology is fit for purpose. How long it will take to roll that out and integrate into existing systems is not something I know enough about to comment on. Our goal is to have some real examples of how this could work within the next year — so really fast. As part of the partnership, banks are investing in R3. Rutter said:  I can’t reveal that but it’s been reported that it’s several million. From my prospective of having the banks involved, the human element is more valuable. SEE ALSO: Barclays has two blockchain 'labs' in London and is planning 45 experiments with the technology. SEE ALSO: Santander is experimenting with bitcoin and close to investing in a blockchain startup. NOW WATCH: Animated map shows where all the world's McDonald's are.
+LOCATION London
+LOCATION London
+LOCATION New York
+LOCATION Wall Street
+LOCATION Canary Warf
+PERSON David Rutter
+PERSON Rutter
+PERSON Rutter
+PERSON Rutter
+PERSON Rutter
+PERSON Derek White
+ORGANIZATION Barclays
+ORGANIZATION Barclays
+ORGANIZATION Barclays
+ORGANIZATION Barclays
+ORGANIZATION BBVA
+ORGANIZATION Commonwealth Bank of Australia
+ORGANIZATION Credit Suisse
+ORGANIZATION JPMorgan
+ORGANIZATION State Street
+ORGANIZATION Royal Bank Of Scotland
+ORGANIZATION UBS
+ORGANIZATION UBS
+ORGANIZATION ICAP Electronic Broking
+ORGANIZATION Business Insider
+ORGANIZATION Business Insider
+ORGANIZATION Business Insider
+ORGANIZATION Business Insider
+ORGANIZATION Financial Times
+ORGANIZATION Goldman Sachs
+ORGANIZATION Citi
+ORGANIZATION Santander
+ORGANIZATION Santander
+ORGANIZATION Santander
+ORGANIZATION McDonald
+ORGANIZATION R3
+ORGANIZATION R3
+ORGANIZATION R3

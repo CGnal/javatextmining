@@ -38,7 +38,7 @@ object NamedEntityExtractionBenchmark extends HttpClient  with AkkaEnvironment{
     val path: Path = Paths.get(load.getString("testfiles"))
     val dir: File = path.toAbsolutePath().toFile()
 
-    val listOfEntities: List[NamedEntityExtractionResult] = dir.listFiles().toList.map(file => {
+    val listOfEntities: List[NamedEntityExtractionResult] = dir.listFiles().toList.sortBy(_.getName).map(file => {
 
       val path1: String = file.getAbsolutePath()
       val wholeFile: String = readWholeFileToString(path1)

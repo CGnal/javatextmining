@@ -1,9 +1,10 @@
 The future of money will involve transfer of value across real time, self-optimising markets, where computer code will iron out many mismatches between supply and demand. It's hard to imagine a world where self-driving cars tout the fairest deals on completely decentralised trade networks. But it happens to be a logical progression from decentralised systems like the Bitcoin network. IBTimes UK asked Jeff Garzik, Bitcoin core developer and Bloq co-founder, how Bitcoin might be adapted/adopted in the future. He said:  It is the very early days yet. Several pieces of the decentralised software stack have yet to be written and deployed. Bitcoin was just the first step. There is a vision of greater corporate and governmental transparency and honesty when finances are audited and in some ways governed by smart contracts - audit-able, computer-provable milestones and metrics that govern asset transfer. Combine this with real time self-optimising markets and you begin to glimpse some of the future of money. Garzik has been vocal in the debate over private versus public blockchains. He believes centralised, clustered/replicated databases in existence today are probably more robust than private chains will be. A private chain is basically a private database. Private, clustered/replicated databases have existed before now. Without the policy-neutral, vendor-neutral bitcoin 'entity' at arbiter, private blockchains must reinvent this - often by reintroducing centralised security mechanisms and the Single Points of Failure (SPOFs) that come along for the ride,  he said. IBT asked him if his predictions extended to the price of Bitcoin. He said:  I never ever make price predictions. General policy. I try to focus on the protocol technology. I think all bitcoin companies will continue their core business and competencies, while expanding those outside the bitcoin space to all areas of fintech. Garzik has been working on Bitcoin core under the auspices of payments processor BitPay and is transitioning to become a member of its advisory board. Other members of BitPay Advisory Board include Arthur Levitt and Gavin Andresen. He added that  after a tumultuous September I'm now a co-founder at stealth bitcoin startup Bloq . Garzik sees elements like Blockstream's sidechains project as a  very positive  and  a great addition to the ecosystem . He also falls in favour of a marriage of between Bitcoin and Ethereum via a sidechain, as outlined in the Rootstock project. My general view is that Ethereum technology is great - a new programming language - but Ethereum is not so good as an investment in the ETH token. The technology is most likely to be married with Bitcoin as Rootstock has done.
+LOCATION UK
 PERSON Jeff Garzik
 PERSON Arthur Levitt
 PERSON Gavin Andresen
 ORGANIZATION IBT
-ORGANIZATION IBTimes UK
+ORGANIZATION IBTimes
 ORGANIZATION BitPay
 ORGANIZATION BitPay
 ORGANIZATION Bloq
@@ -12,4 +13,5 @@ ORGANIZATION Blockstream
 ORGANIZATION Ethereum
 ORGANIZATION Ethereum
 ORGANIZATION Ethereum
+ORGANIZATION Rootstock
 ORGANIZATION Rootstock

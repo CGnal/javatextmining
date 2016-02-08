@@ -1,20 +1,18 @@
-WoraPay launches its universal remote mobile payments platform to a series of retail establishments in central London this month. In just over a week workers have saved a precious 10 hours of queuing time.   On average a Londoner spends about 12 minutes a day queuing for drinks and their lunchtime food. Our goal is to give this valuable time back to the consumer, time that can be spent more productively than standing in a queue,  says Vaidas Adomauskas, co-founder and CEO of WoraPay.  Consumers are able to order and pay at participating merchants using their mobile phone. Once the payment is made, the consumer receives an SMS informing them that their order is ready, allowing them to avoid costly and time consuming queues.   The huge differentiation factor from other pre-ordering solutions in the market is that the WoraPay platform integrates with existing mobile wallets - mobile apps that connect users mobile phones with their money and allow them to make payments with the phone. WioPay (debit and credit card payments) and SpectroCoin (Bitcoin payments) mobile wallets are available during the launch to select from (www.pickmobilewallet.com). Other mobile wallets, including banking apps, are currently being integrated to the platform to launch later.  WoraPay’s solution also saves Merchants’ time, since completing a remote order is up to 2.4 times faster than a live order. This gives their staff extra time to handle more clients especially at peak times, and increases sales. Moreover, with a single easy setup they can accept remote mobile payments from any connected mobile wallet.   WoraPay’s launch in the UK is supported by its involvement in Startupbootcamp FinTech London’s 2015 accelerator programme and its partners.   WoraPay serves as a great example of the innovation that is being developed by start-ups in the FinTech space, and the value of programs like Startupbootcamp to enable corporates like MasterCard to directly mentor these teams  says Stephane Wyper, Global Lead of MasterCard Start Path.    Lloyds Banking Group has been the first partner of Startupbootcamp Fintech. The accelerator programme is a great example of collaboration between startups and banks where we can provide mentorship though our banking subject matter experts to help innovative start-ups develop and grow. says Claire Calmejane, Director of Innovation at Lloyds Banking Group.
-ORGANIZATION WoraPay
-ORGANIZATION WoraPay
-ORGANIZATION WoraPay
-ORGANIZATION WoraPay
-ORGANIZATION WoraPay
-ORGANIZATION WoraPay
-LOCATION London
-PERSON Vaidas Adomauskas
-ORGANIZATION WioPay
-ORGANIZATION SpectroCoin
-LOCATION UK
-ORGANIZATION Startupbootcamp
-ORGANIZATION Startupbootcamp
-ORGANIZATION Startupbootcamp
-ORGANIZATION MasterCard
-PERSON Stephane Wyper
-ORGANIZATION Lloyds Banking Group
-ORGANIZATION Lloyds Banking Group
-PERSON Claire Calmejane
+Tech companies who’ve long overlooked the home lending market and as fertile ground for new business are waking up to the opportunity in the market and money — and new offerings are pouring in. One of those players, Lenda, which launched last year with a seed round of over $1 million, has raised another $2 million in its latest round of financing. The round, led by Lakestar with commitments from existing investors Rubicon and 500 Startups, will be used to continue to expand its business. Lenda launched from 500 Startups in the summer of 2014 and has since processed over $60 million in loans for homeowners in California, Washington, and Oregon. The company has further expansion plans in place for next year, according to a statement. Using Lenda’s software, would-be borrowers can compare loans, receive a credit report, upload documentation and check their loan status in real-time. The company reduces time-to-close from two months to two-and-a-half weeks, according to a statement and can reduce borrowing fees by an average of $20,000. Homeowners can complete a refinancing application within 45 minutes from a computer any time of day or night and have their loan funded in under three weeks, says chief executive Jason van den Brand. After looking at over 50 real estate technology companies worldwide, Lenda is now our third investment in the space. We love their product and customer-first approach and their 20 percent monthly rate of growth is exceptional for such a young company,  said Manu Gupta, General Partner at Lakestar, in  a statement. Lenda’s new financing should provide the company with a little bit of firepower as new competitors emerge in the online lending space. Just today, Dan Gilbert’s Quicken Loans company launched its own foray into online mortgage lending with, Rocket Mortgage. Which the company touts as the  iPhone  moment for the mortgage industry. Perhaps, with Lenda and other mortgage startups on the market, the Android competitor has already been established.
+LOCATION California
+LOCATION Washington
+LOCATION Oregon
+PERSON Jason van den Brand
+PERSON Manu Gupta
+PERSON Dan Gilbert
+ORGANIZATION Lakestar
+ORGANIZATION Lakestar
+ORGANIZATION Lenda
+ORGANIZATION Lenda
+ORGANIZATION Lenda
+ORGANIZATION Lenda
+ORGANIZATION Lenda
+ORGANIZATION Lenda
+ORGANIZATION Rubicon
+ORGANIZATION Quicken Loans
+ORGANIZATION Rocket Mortgage
