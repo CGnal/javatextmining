@@ -1,0 +1,29 @@
+More banks have joined forces with R3, a startup headed by a former ICAP Plc executive, to study how trading of securities, derivatives and loans can be overhauled by using bitcoin’s blockchain technology. Thirteen additional banks have come aboard, including Bank of America Corp., Citigroup Inc., Deutsche Bank AG, Morgan Stanley and Societe Generale SA, according to a statement from R3 on Tuesday. R3 originally had nine banks including Barclays Plc, Goldman Sachs Group Inc. and JPMorgan Chase & Co. as partners. Headed by former ICAP executive David Rutter, R3 is working with banks to examine how so-called distributed ledger technology can be applied to finance. The software innovation is what allows bitcoin to trade around the world without the involvement of a bank or centralized third party. The addition of this new group of banks demonstrates widespread support for innovative distributed ledger solutions across the global financial services community, and we’re delighted to have them on board,  Rutter said in the statement. The banks will contribute internal resources to help design and test the technology, according to the statement. Wall Street is becoming enamored with the potential for blockchain to transform the way derivatives, bonds, loans and other asset classes work, dramatically simplifying the process of tracking ownership and accelerating the transfer of assets from one person to another. To work, however, the banks, hedge funds and asset managers that comprise the main players in a given financial market need to be using the same network. The other additions to the R3 group are Bank of New York Mellon Corp., Mitsubishi UFJ Financial Group Inc., Commerzbank AG, HSBC Holdings Plc, National Australia Bank Ltd., Royal Bank of Canada, Skandinaviska Enskilda Banken AB, and Toronto-Dominion Bank. They joined prior members Banco Bilbao Vizcaya Argentaria SA, Barclays, Commonwealth Bank of Australia, Credit Suisse Group AG, Goldman Sachs, JPMorgan, Royal Bank of Scotland Plc, State Street Corp., and UBS Group AG.
+PERSON Rutter
+PERSON David Rutter
+ORGANIZATION Bank of America Corp.
+ORGANIZATION Citigroup Inc.
+ORGANIZATION Deutsche Bank AG
+ORGANIZATION Morgan Stanley
+ORGANIZATION Societe Generale SA
+ORGANIZATION Barclays Plc
+ORGANIZATION Goldman Sachs Group Inc.
+ORGANIZATION JPMorgan Chase & Co.
+ORGANIZATION Bank of New York Mellon Corp.
+ORGANIZATION Mitsubishi UFJ Financial Group Inc.
+ORGANIZATION Commerzbank AG
+ORGANIZATION HSBC Holdings Plc
+ORGANIZATION National Australia Bank Ltd.
+ORGANIZATION Royal Bank of Canada
+ORGANIZATION Skandinaviska Enskilda Banken AB
+ORGANIZATION Toronto-Dominion Bank
+ORGANIZATION Banco Bilbao Vizcaya Argentaria SA
+ORGANIZATION Barclays
+ORGANIZATION Commonwealth Bank of Australia
+ORGANIZATION Credit Suisse Group AG
+ORGANIZATION Goldman Sachs
+ORGANIZATION JPMorgan
+ORGANIZATION Royal Bank of Scotland Plc
+ORGANIZATION State Street Corp.
+ORGANIZATION UBS Group AG
+ORGANIZATION R3

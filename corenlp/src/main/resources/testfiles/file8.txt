@@ -1,0 +1,37 @@
+San Francisco (AFP) - Mobile payments startup Square said Friday it will raise up to $403 million (£267 million) in its stock offering — but it may be valued less on Wall Street than by private investors. The news could chill the surge in investment in tech startups that has led to a breed of  unicorns,  with a value of at least $1 billion (£660 million). Square, founded by Twitter's Jack Dorsey — who is chief executive of both firms —said in an updated regulatory filing it would sell 27 million shares in a range of $11 (£7.3) to $13 (£8.60) with an option to sell an additional four million shares depending on demand. The initial public offering (IPO) price range suggests a market value for Square of just over $4 billion (£2.6 billion) — well below the $6 billion (£3.9 billion) value assigned by private investors in its latest funding round. Some analysts have warned of a tech bubble in the private markets, with dozens of firms getting a value of over $1 billion (£660 million) —  unicorns  in Silicon Valley speak — with little scrutiny of their financial prospects. Matthew Kennedy at Renaissance Capital said the valuation is  worrying. Investors might be putting more weight on profitability now,  said Kennedy, an analyst at the company which advises firms for IPOs. Pricing for an IPO can be tricky, because Wall Street often likes to see a jump in the market debut. But a low price can hurt the early private investors. I think Square's hoping they're coming down low enough to give it a pop, and if that happens that'll be an encouraging sign,  Kennedy said. One major question for investors is whether Dorsey, who last month retook the reins at struggling Twitter, can effectively lead both companies. He's got to turn around Twitter while managing Square's offering,  Kennedy said.  He's got a lot on his plate, and there could be some concern. Square, which started in 2009 by providing financial transactions software for smartphones or tablets along with free  dongles  that plug into devices for reading magnetic strips on payment cards, is among prominent unicorns in startup rich Silicon Valley. A total of 23 unicorns were created in the past quarter — 17 in the United States — bringing the total to 58 so far this year. According to CB Insights, there are 143 unicorns worldwide with a combined valuation of $508 billion. Square nonetheless  has been a highly anticipated tech IPO that has the potential to be one of the largest of the year,  said a note this week from research firm PrivCo. PrivCo chief executive Sam Hamadeh said, however, that Square is  a company that really needs the money to cover its losses  and that it might be better to delay its IPO. Except for the fact that they need the money it's not clear why they don't get a full-time CEO and then IPO in the spring,  Hamadeh said. Hamadeh said that Square's update is a warning to other unicorns which may not get the same valuation in an IPO as from private equity investors. Some startups have seen unprecedented valuations such as Uber at more than $50 billion (£33.2 billion) and Airbnb at $25 billion (£16 billion). The very big unicorns  don't have the option to IPO,  Hamadeh said.  They're sort of trapped in a gilded cage and there is no exit. There is no one rich enough to buy them. When the finances are disclosed for a stock offering, Hamadeh said that valuations are likely to be lower. They can either start to slow down and get profitable, but slowing growth is deadly for valuation, or they can continue to raise money on the private market, but they are stuck in a trap,  he said.  The story won't have a happy ending for quite a few of them. The latest filing updates the IPO made public last month and boosts the planned amount to be raised from an initial estimate of $275 million (£182.7 million). The San Francisco-based company plans to trade on the New York Stock Exchange under the symbol  SQ. The document showed a net loss in the third quarter for Square of $53.9 million (£35.8 million) on revenues of $332 million (£220.6 million). Square operates by taking a cut of 2.75 percent of transactions using its mobile dongle and more for purchases entered manually on its mobile app. The company faces competition from other players, notably PayPal, which was spun off this year by eBay.
+LOCATION San Francisco
+LOCATION San Francisco
+LOCATION Silicon Valley
+LOCATION Silicon Valley
+PERSON Jack Dorsey
+PERSON Matthew Kennedy
+PERSON Kennedy
+PERSON Kennedy
+PERSON Kennedy
+PERSON Dorsey
+PERSON Sam Hamadeh
+PERSON Hamadeh
+PERSON Hamadeh
+PERSON Hamadeh
+PERSON Hamadeh
+ORGANIZATION Twitter
+ORGANIZATION Twitter
+ORGANIZATION Twitter
+ORGANIZATION CB Insights
+ORGANIZATION PrivCo
+ORGANIZATION PrivCo
+ORGANIZATION Uber
+ORGANIZATION Airbnb
+ORGANIZATION Paypal
+ORGANIZATION eBay
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Square
+ORGANIZATION Renaissance Capital

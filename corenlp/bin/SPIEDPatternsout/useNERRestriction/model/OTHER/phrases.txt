@@ -1,0 +1,4 @@
+###Iteration 0
+Grace Goodhue Coolidge	0.3462117157287282
+Amy Lynn	0.34621171573100096
+Malia	0.34621171574600096

@@ -1,0 +1,93 @@
+{
+  "requestId": "e136c90d-8aeb-4049-88b2-aa896862d5bb",
+  "entities": [
+    {
+      "indocChainId": 0,
+      "type": "LOCATION",
+      "mention": "London",
+      "normalized": "London",
+      "count": 2,
+      "confidence": 0.030316948890686035
+    },
+    {
+      "indocChainId": 7,
+      "type": "ORGANIZATION",
+      "mention": "MasterCard",
+      "normalized": "MasterCard",
+      "count": 2,
+      "confidence": 1
+    },
+    {
+      "indocChainId": 10,
+      "type": "ORGANIZATION",
+      "mention": "Lloyds Banking",
+      "normalized": "Lloyds Banking",
+      "count": 2,
+      "confidence": 1
+    },
+    {
+      "indocChainId": 1,
+      "type": "ORGANIZATION",
+      "mention": "Londoner",
+      "normalized": "Londoner",
+      "count": 1,
+      "confidence": 0.012333273887634277
+    },
+    {
+      "indocChainId": 2,
+      "type": "PERSON",
+      "mention": "Vaidas Adomauskas",
+      "normalized": "Vaidas Adomauskas",
+      "count": 1,
+      "confidence": 0.014132916927337646
+    },
+    {
+      "indocChainId": 3,
+      "type": "TITLE",
+      "mention": "CEO",
+      "normalized": "CEO",
+      "count": 1,
+      "confidence": 0.02084726095199585
+    },
+    {
+      "indocChainId": 4,
+      "type": "IDENTIFIER:URL",
+      "mention": "www.pickmobilewallet.com",
+      "normalized": "www.pickmobilewallet.com",
+      "count": 1,
+      "confidence": 1
+    },
+    {
+      "indocChainId": 5,
+      "type": "LOCATION",
+      "mention": "UK",
+      "normalized": "UK",
+      "count": 1,
+      "confidence": 1
+    },
+    {
+      "indocChainId": 8,
+      "type": "PERSON",
+      "mention": "Stephane Wyper",
+      "normalized": "Stephane Wyper",
+      "count": 1,
+      "confidence": 0.021758437156677246
+    },
+    {
+      "indocChainId": 11,
+      "type": "PERSON",
+      "mention": "Claire Calmejane",
+      "normalized": "Claire Calmejane",
+      "count": 1,
+      "confidence": 0.07386308908462524
+    },
+    {
+      "indocChainId": 12,
+      "type": "TITLE",
+      "mention": "Director of Innovation",
+      "normalized": "Director of Innovation",
+      "count": 1,
+      "confidence": 0.03499770164489746
+    }
+  ]
+}

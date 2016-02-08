@@ -1,0 +1,700 @@
+{
+  "doc": {
+    "info": {
+      "calaisRequestID": "a9cca18f-8c83-336d-152b-22f257d56146",
+      "id": "http://id.opencalais.com/DP5EMLcvMswWHrUu5VkqfA",
+      "ontology": "http://mdaast-virtual-onecalais.int.thomsonreuters.com/owlschema/9.2/onecalais.owl.allmetadata.xml",
+      "docId": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f",
+      "document": "We’ve recently started thinking more about what the future of bitcoin applications will look like. Up to this point, Coinbase has focused on making it easier for people to buy and sell bitcoin in a variety of countries around the world. This is a necessary building block for the ecosystem and we’ll continue to make progress there, but it is the applications built on this foundation that are needed next. In the spirit of helping kickstart the app ecosystem, a small group of people at Coinbase recently convened to brainstorm Bitcoin killer apps. Here are the ideas that surfaced: Bitcoin-enabled browser: A web browser that has a built in bitcoin wallet could unlock a number of new uses cases. Micro transactions have taken off on mobile (in-app purchases) largely because payments are built in by default. What if the web browser had a similar feature? It was conceived early on, but never used - and today we have to enter our credit card on every website we visit which is a substantial hurdle. This has led to a large number of ad-based businesses on the web. Mobile micro-payouts service: A mobile app that allows people all around the world to earn money via a phone number would be powerful. In the future, many people may get their first bits by earning them rather than buying them. Almost everyone has a cell-phone in the world now (even in developing countries). Perhaps if we can connect people who have lots of time but not much money with people who have the opposite problem, we can make a more efficient global economy. BTML (a new markup language) or an IDE (integrated developer enviornment) for developers: TCP/IP (the backbone of the internet) is a low level binary protocol (just like Bitcoin). But it wasn’t until HTML (the basic language of web pages) was created that the web started to flourish. Maybe Bitcoin needs a similar high level abstraction on top of the protocol for people to offer things for sale, or complete transactions. Similarly, one big reason there are a large number of apps on iOS, is that Apple created XCode, an excellent IDE for developers to build iPhone Apps. There doesn’t seem to be an equivalent editor for people to start writing bitcoin scripts (or sharing them with something like Gist from GitHub). Perhaps by building better abstractions or developer tools around bitcoin, we can spark a new wave of apps. Decentralized e-commerce platform: An ecommerce service that allows anyone in the world to sell to a global consumer base from their desktop or mobile phone is a big idea. Some services are already making strides here (see OpenBazaar), but simple and intuitive interfaces will be essential to reach a mainstream non-technical audience. Remittance app: An app that uses the Bitcoin payment network to make remittances cheaper, faster and more accessible to people around the world, perhaps without even realizing they are using bitcoin (see Abra). B2B cross-border payment service: A service that uses the Bitcoin payment network to make business-to-business cross border payments fast, cheap and secure (see Align Commerce). P2P data sharing: A platform that uses bitcoin to incentivize people to run nodes and share data in peer-to-peer networks (see Joystream). Right now, most run nodes out of altruism. When you add financial incentives, there is the potential to build stronger decentralized networks. Reddit but with Bitcoin: Reddit uses the concept of  karma points . But what if these were replaced with bits? People could earn money for posting good content or adding comments. Many different global communities (or would they be economies?) could emerge, made of of people in different countries all over the world (see Zapchain). Interest-bearing app: A service that allows people to earn interest on their bitcoin for providing a resource to the network (see Lightning Network). Machine-to-machine payments protocol: A payment protocol built into an internet of things protocol (to enable machine-to-machine transactions like this). The most surprising result from the brainstorm was that as we went around the room, everyone had a different view on what the first killer app for bitcoin will be. This highlights the power of an open value transfer protocol. Bitcoin doesn't just improve existing payment and settlement systems by making them faster, cheaper, and more global. It can enable a whole suite of applications, consumer behaviors and business models that couldn't exist previously. While it was a great brainstorm session, we realize that we’re just one small group. We’d love to hear what you think. Please share your thoughts with us on Twitter or on our Community Site.",
+      "docTitle": "",
+      "docDate": "2016-02-05 16:06:21.084"
+    },
+    "meta": {
+      "contentType": "text/raw",
+      "processingVer": "AllMetadata",
+      "serverVersion": "OneCalais_9.2-RELEASE:402",
+      "stagsVer": "OneCalais_9.2-RELEASE-b2-2015-12-31_01:34:35",
+      "submissionDate": "2016-02-05 16:06:20.285",
+      "submitterCode": "0ca6a864-5659-789d-5f32-f365f695e757",
+      "signature": "digestalg-1|Bq+Se4YRMagpeozsdjYHYnaTF2s=|aWD7mwD7Hw3eBF7c6XzkkaQNJAwODCutDLBaJ+J/OKz4Xjs8CRHzIA==",
+      "language": "English"
+    }
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/cat/1": {
+    "_typeGroup": "topics",
+    "forenduserdisplay": "false",
+    "score": 0.952,
+    "name": "Technology_Internet"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/lid/DefaultLangId": {
+    "_typeGroup": "language",
+    "language": "http://d.opencalais.com/lid/DefaultLangId/English",
+    "forenduserdisplay": "false",
+    "permid": "505062"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/1": {
+    "_typeGroup": "socialTag",
+    "id": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/1",
+    "socialTag": "http://d.opencalais.com/genericHasher-1/1434e20c-1c91-3a8e-938c-e7b7db3d8674",
+    "forenduserdisplay": "true",
+    "name": "Cryptocurrencies",
+    "importance": "1",
+    "originalValue": "Cryptocurrencies"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/2": {
+    "_typeGroup": "socialTag",
+    "id": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/2",
+    "socialTag": "http://d.opencalais.com/genericHasher-1/410251bf-464e-33e2-a5aa-997b39b330f2",
+    "forenduserdisplay": "true",
+    "name": "Bitcoin",
+    "importance": "1",
+    "originalValue": "Bitcoin"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/3": {
+    "_typeGroup": "socialTag",
+    "id": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/3",
+    "socialTag": "http://d.opencalais.com/genericHasher-1/d8ed66f5-56e4-3083-8afc-4faf13124937",
+    "forenduserdisplay": "true",
+    "name": "Coinbase",
+    "importance": "1",
+    "originalValue": "Coinbase"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/4": {
+    "_typeGroup": "socialTag",
+    "id": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/4",
+    "socialTag": "http://d.opencalais.com/genericHasher-1/f876c012-eafb-324b-9270-4d5aadc31a15",
+    "forenduserdisplay": "true",
+    "name": "Micropayment",
+    "importance": "2",
+    "originalValue": "Micropayment"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/5": {
+    "_typeGroup": "socialTag",
+    "id": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/5",
+    "socialTag": "http://d.opencalais.com/genericHasher-1/9e410036-e66f-3bbd-8642-d21620e26443",
+    "forenduserdisplay": "true",
+    "name": "BitPay",
+    "importance": "2",
+    "originalValue": "BitPay"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/6": {
+    "_typeGroup": "socialTag",
+    "id": "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/SocialTag/6",
+    "socialTag": "http://d.opencalais.com/genericHasher-1/6888e1f3-3004-35e5-8305-39e7e19ddd45",
+    "forenduserdisplay": "true",
+    "name": "Counterparty",
+    "importance": "2",
+    "originalValue": "Counterparty (technology)"
+  },
+  "http://d.opencalais.com/dochash-1/b90758d2-d1bb-3adc-bae6-7d45a9673c1f/ComponentVersions": {
+    "_typeGroup": "versions",
+    "version": [
+      "Deals Index:201602051519:201602051519",
+      "index-refineries:201601301500:201601301500",
+      "config-physicalAssets-powerStations:345:345",
+      "OA Index:201602042229:201602042229",
+      "NextTags:OneCalais_9.2-RELEASE:160",
+      "SpanishIM:OneCalais_9.2-RELEASE:227",
+      "config-sca-DataPackage:35:35",
+      "SECHeaderMetadataIM:OneCalais_9.2-RELEASE:227",
+      "com.clearforest.infoext.dial4j.plugins-basistechconfig:OneCalais_9.2-RELEASE:258",
+      "People Index:201602051529:201602051529",
+      "Collector:OneCalais_9.2-RELEASE:160",
+      "config-negativeSignature:345:345",
+      "Dial4J:OneCalais_8.6-RELEASE:209",
+      "AutocoderRuntimeIM:OneCalais_9.2-RELEASE:227",
+      "OA Override:371:371",
+      "People Override:231:231",
+      "index-vessels:201601302050:201601302050",
+      "BrokerResearchIM:OneCalais_9.2-RELEASE:227",
+      "config-refineries:345:345",
+      "config-cse:363:363",
+      "OneCalaisIM:OneCalais_9.2-RELEASE:227",
+      "config-vessels:345:345",
+      "OneCalais:OneCalais_9.2-RELEASE:402",
+      "Housekeeper:OneCalais_9.2-RELEASE:160",
+      "WatchDog:OneCalais_9.2-RELEASE:160",
+      "config-physicalAssets-mines:345:345",
+      "SocialTags Index:201601180952:201601180952",
+      "BlackList:345:345",
+      "index-ports:201601301445:201601301445",
+      "FrenchIM:OneCalais_9.2-RELEASE:227",
+      "config-physicalAssets-ports:345:345",
+      "config-drugs:345:345"
+    ]
+  },
+  "http://d.opencalais.com/genericHasher-1/a84ad1b0-fcc9-345f-82ec-9549bae1e560": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "web browser",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[ideas that surfaced: Bitcoin-enabled browser: A ]web browser[ that has a built in bitcoin wallet could unlock]",
+        "prefix": "ideas that surfaced: Bitcoin-enabled browser: A ",
+        "exact": "web browser",
+        "suffix": " that has a built in bitcoin wallet could unlock",
+        "offset": 611,
+        "length": 11
+      },
+      {
+        "detection": "[payments are built in by default. What if the ]web browser[ had a similar feature? It was conceived early]",
+        "prefix": "payments are built in by default. What if the ",
+        "exact": "web browser",
+        "suffix": " had a similar feature? It was conceived early",
+        "offset": 824,
+        "length": 11
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/bcad3ef4-238d-3dba-b9af-dadf3375c587": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "payment network",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[Remittance app: An app that uses the Bitcoin ]payment network[ to make remittances cheaper, faster and more]",
+        "prefix": "Remittance app: An app that uses the Bitcoin ",
+        "exact": "payment network",
+        "suffix": " to make remittances cheaper, faster and more",
+        "offset": 2750,
+        "length": 15
+      },
+      {
+        "detection": "[ payment service: A service that uses the Bitcoin ]payment network[ to make business-to-business cross border]",
+        "prefix": " payment service: A service that uses the Bitcoin ",
+        "exact": "payment network",
+        "suffix": " to make business-to-business cross border",
+        "offset": 2982,
+        "length": 15
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/5d9e9b8f-34c1-3331-841d-1f2ad66c568a": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "low level binary protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[TCP/IP (the backbone of the internet) is a ]low level binary protocol[ (just like Bitcoin). But it wasn’t until HTML]",
+        "prefix": "TCP/IP (the backbone of the internet) is a ",
+        "exact": "low level binary protocol",
+        "suffix": " (just like Bitcoin). But it wasn’t until HTML",
+        "offset": 1674,
+        "length": 25
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/1afd5d31-632e-3c7d-bb2f-d38317cf484d": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "P2P",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[fast, cheap and secure (see Align Commerce). ]P2P[ data sharing: A platform that uses bitcoin to]",
+        "prefix": "fast, cheap and secure (see Align Commerce). ",
+        "exact": "P2P",
+        "suffix": " data sharing: A platform that uses bitcoin to",
+        "offset": 3094,
+        "length": 3
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/10a6ba90-14b0-3dc0-80f9-2dcd79df6b64": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "cellular telephone",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[to a global consumer base from their desktop or ]mobile phone[ is a big idea. Some services are already making]",
+        "prefix": "to a global consumer base from their desktop or ",
+        "exact": "mobile phone",
+        "suffix": " is a big idea. Some services are already making",
+        "offset": 2513,
+        "length": 12
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/123f463e-56ea-3ec5-9316-c72b5b44b643": {
+    "_typeGroup": "entities",
+    "_type": "ProvinceOrState",
+    "forenduserdisplay": "false",
+    "name": "Abra",
+    "resolutions": [
+      {
+        "name": "Abra province,Philippines",
+        "shortname": "Abra province",
+        "latitude": "17.5833",
+        "longitude": "120.75",
+        "containedbycountry": "Philippines"
+      }
+    ],
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/ProvinceOrState",
+    "instances": [
+      {
+        "detection": "[even realizing they are using bitcoin (see ]Abra[). B2B cross-border payment service: A service]",
+        "prefix": "even realizing they are using bitcoin (see ",
+        "exact": "Abra",
+        "suffix": "). B2B cross-border payment service: A service",
+        "offset": 2909,
+        "length": 4
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/d251156a-6be3-3bc4-b7ef-cdff936b0388": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "settlement systems",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[doesn't just improve existing payment and ]settlement systems[ by making them faster, cheaper, and more global.]",
+        "prefix": "doesn't just improve existing payment and ",
+        "exact": "settlement systems",
+        "suffix": " by making them faster, cheaper, and more global.",
+        "offset": 4290,
+        "length": 18
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/3170dad5-8c89-37b6-af60-ff699f4aec25": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "payment protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[Machine-to-machine payments protocol: A ]payment protocol[ built into an internet of things protocol (to]",
+        "prefix": "Machine-to-machine payments protocol: A ",
+        "exact": "payment protocol",
+        "suffix": " built into an internet of things protocol (to",
+        "offset": 3900,
+        "length": 16
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/abcf3eef-7e2c-34dc-919b-3fa05865be1f": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "payment protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[Network). Machine-to-machine payments protocol: ]A payment protocol[ built into an internet of things protocol (to]",
+        "prefix": "Network). Machine-to-machine payments protocol: ",
+        "exact": "A payment protocol",
+        "suffix": " built into an internet of things protocol (to",
+        "offset": 3898,
+        "length": 18
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/3f231587-e64b-3697-948e-cfe26eec0501": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "Machine-to-machine payments protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[ resource to the network (see Lightning Network). ]Machine-to-machine payments protocol[: A payment protocol built into an internet of]",
+        "prefix": " resource to the network (see Lightning Network). ",
+        "exact": "Machine-to-machine payments protocol",
+        "suffix": ": A payment protocol built into an internet of",
+        "offset": 3860,
+        "length": 36
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/704fbd64-6473-3b55-a795-b0728a93994f": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "bitcoin applications",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[started thinking more about what the future of ]bitcoin applications[ will look like. Up to this point, Coinbase has]",
+        "prefix": "started thinking more about what the future of ",
+        "exact": "bitcoin applications",
+        "suffix": " will look like. Up to this point, Coinbase has",
+        "offset": 62,
+        "length": 20
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/3a0f3359-b89a-3959-a958-a9141e8c1f9d": {
+    "_typeGroup": "entities",
+    "_type": "Product",
+    "forenduserdisplay": "false",
+    "name": "iPhone",
+    "producttype": "Electronics",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Product",
+    "instances": [
+      {
+        "detection": "[XCode, an excellent IDE for developers to build ]iPhone[ Apps. There doesn’t seem to be an equivalent]",
+        "prefix": "XCode, an excellent IDE for developers to build ",
+        "exact": "iPhone",
+        "suffix": " Apps. There doesn’t seem to be an equivalent",
+        "offset": 2102,
+        "length": 6
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/2c99dc21-2d2c-3a89-a6a5-849aa6b3b2b8": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "low level binary protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[TCP/IP (the backbone of the internet) is ]a low level binary protocol[ (just like Bitcoin). But it wasn’t until HTML]",
+        "prefix": "TCP/IP (the backbone of the internet) is ",
+        "exact": "a low level binary protocol",
+        "suffix": " (just like Bitcoin). But it wasn’t until HTML",
+        "offset": 1672,
+        "length": 27
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/46b54193-abd3-3836-b9a4-32afefa4eb1e": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "open value transfer protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[bitcoin will be. This highlights the power of ]an open value transfer protocol[. Bitcoin doesn't just improve existing payment]",
+        "prefix": "bitcoin will be. This highlights the power of ",
+        "exact": "an open value transfer protocol",
+        "suffix": ". Bitcoin doesn't just improve existing payment",
+        "offset": 4207,
+        "length": 31
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/4c478bb9-1128-302d-988a-c90e8294029a": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "HTML",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[(just like Bitcoin). But it wasn’t until ]HTML[ (the basic language of web pages) was created]",
+        "prefix": "(just like Bitcoin). But it wasn’t until ",
+        "exact": "HTML",
+        "suffix": " (the basic language of web pages) was created",
+        "offset": 1741,
+        "length": 4
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/comphash-1/1076d1eb-4ea8-3d30-823a-db47764acc34": {
+    "_typeGroup": "entities",
+    "_type": "Company",
+    "forenduserdisplay": "false",
+    "name": "Twitter",
+    "nationality": "N/A",
+    "confidencelevel": "0.898",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Company",
+    "instances": [
+      {
+        "detection": "[ you think. Please share your thoughts with us on ]Twitter[ or on our Community Site.]",
+        "prefix": " you think. Please share your thoughts with us on ",
+        "exact": "Twitter",
+        "suffix": " or on our Community Site.",
+        "offset": 4631,
+        "length": 7
+      }
+    ],
+    "relevance": 0,
+    "confidence": {
+      "statisticalfeature": "0.876",
+      "dblookup": "0.0",
+      "resolution": "0.9332172",
+      "aggregate": "0.898"
+    },
+    "resolutions": [
+      {
+        "name": "TWITTER, INC.",
+        "permid": "4296301199",
+        "primaryric": "TWTR.N",
+        "commonname": "Twitter",
+        "score": 0.9332172,
+        "id": "https://permid.org/1-4296301199",
+        "ticker": "TWTR"
+      }
+    ]
+  },
+  "http://d.opencalais.com/genericHasher-1/2fd0c29f-d734-34f6-93a6-c43ca3ea7cc8": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "Machine-to-machine payments protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[ resource to the network (see Lightning Network). ]Machine-to-machine payments protocol[: A payment protocol built into an internet of]",
+        "prefix": " resource to the network (see Lightning Network). ",
+        "exact": "Machine-to-machine payments protocol",
+        "suffix": ": A payment protocol built into an internet of",
+        "offset": 3860,
+        "length": 36
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/d3b683b6-ffb5-3c7c-8a51-b24aadd71bcd": {
+    "_typeGroup": "entities",
+    "_type": "Position",
+    "forenduserdisplay": "false",
+    "name": "equivalent editor",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Position",
+    "instances": [
+      {
+        "detection": "[to build iPhone Apps. There doesn’t seem to be ]an equivalent editor[ for people to start writing bitcoin scripts (or]",
+        "prefix": "to build iPhone Apps. There doesn’t seem to be ",
+        "exact": "an equivalent editor",
+        "suffix": " for people to start writing bitcoin scripts (or",
+        "offset": 2140,
+        "length": 20
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/73e9b744-eb01-3ae1-b364-0813eabbc835": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "things protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[A payment protocol built into an internet of ]things protocol[ (to enable machine-to-machine transactions like]",
+        "prefix": "A payment protocol built into an internet of ",
+        "exact": "things protocol",
+        "suffix": " (to enable machine-to-machine transactions like",
+        "offset": 3943,
+        "length": 15
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/a1470f1e-2163-3d20-b9e8-15025198c778": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "peer-to-peer",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[people to run nodes and share data in ]peer-to-peer[ networks (see Joystream). Right now, most run]",
+        "prefix": "people to run nodes and share data in ",
+        "exact": "peer-to-peer",
+        "suffix": " networks (see Joystream). Right now, most run",
+        "offset": 3194,
+        "length": 12
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/e2f90d91-bf7d-3de2-8893-53b9e894b009": {
+    "_typeGroup": "entities",
+    "_type": "Technology",
+    "forenduserdisplay": "false",
+    "name": "TCP/IP",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Technology",
+    "instances": [
+      {
+        "detection": "[developer enviornment) for developers: ]TCP/IP[ (the backbone of the internet) is a low level]",
+        "prefix": "developer enviornment) for developers: ",
+        "exact": "TCP/IP",
+        "suffix": " (the backbone of the internet) is a low level",
+        "offset": 1631,
+        "length": 6
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/6761c3d5-4379-3a8e-a8a8-7eca89b0f0af": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "open value transfer protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[ bitcoin will be. This highlights the power of an ]open value transfer protocol[. Bitcoin doesn't just improve existing payment]",
+        "prefix": " bitcoin will be. This highlights the power of an ",
+        "exact": "open value transfer protocol",
+        "suffix": ". Bitcoin doesn't just improve existing payment",
+        "offset": 4210,
+        "length": 28
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/comphash-1/e70fe13a-de79-38cc-ab9b-645a828297a2": {
+    "_typeGroup": "entities",
+    "_type": "Company",
+    "forenduserdisplay": "false",
+    "name": "GitHub",
+    "nationality": "N/A",
+    "confidencelevel": "0.717",
+    "confidence": {
+      "statisticalfeature": "0.876",
+      "dblookup": "0.0",
+      "resolution": "0.16062638",
+      "aggregate": "0.717"
+    },
+    "resolutions": [
+      {
+        "name": "GITHUB, INC.",
+        "permid": "5037097726",
+        "commonname": "GitHub",
+        "score": 0.16062638,
+        "id": "https://permid.org/1-5037097726"
+      }
+    ],
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/Company",
+    "instances": [
+      {
+        "detection": "[(or sharing them with something like Gist from ]GitHub[). Perhaps by building better abstractions or]",
+        "prefix": "(or sharing them with something like Gist from ",
+        "exact": "GitHub",
+        "suffix": "). Perhaps by building better abstractions or",
+        "offset": 2252,
+        "length": 6
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/1d05ecd5-df40-32a1-997e-a399dacc6ed4": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "ecommerce service",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[of apps. Decentralized e-commerce platform: An ]ecommerce service[ that allows anyone in the world to sell to a]",
+        "prefix": "of apps. Decentralized e-commerce platform: An ",
+        "exact": "ecommerce service",
+        "suffix": " that allows anyone in the world to sell to a",
+        "offset": 2407,
+        "length": 17
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/ed692be0-9d21-3add-823a-768ebe56d5b2": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "business to business",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[realizing they are using bitcoin (see Abra). ]B2B[ cross-border payment service: A service that]",
+        "prefix": "realizing they are using bitcoin (see Abra). ",
+        "exact": "B2B",
+        "suffix": " cross-border payment service: A service that",
+        "offset": 2916,
+        "length": 3
+      },
+      {
+        "detection": "[that uses the Bitcoin payment network to make ]business-to-business[ cross border payments fast, cheap and secure]",
+        "prefix": "that uses the Bitcoin payment network to make ",
+        "exact": "business-to-business",
+        "suffix": " cross border payments fast, cheap and secure",
+        "offset": 3006,
+        "length": 20
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/69dfcbcb-20b7-3165-b6b1-95471e2bb119": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "things protocol",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[A payment protocol built into an internet of ]things protocol[ (to enable machine-to-machine transactions like]",
+        "prefix": "A payment protocol built into an internet of ",
+        "exact": "things protocol",
+        "suffix": " (to enable machine-to-machine transactions like",
+        "offset": 3943,
+        "length": 15
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/2b9152af-ee2e-36ba-ada7-bdb0e5932141": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "stronger decentralized networks",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[incentives, there is the potential to build ]stronger decentralized networks[. Reddit but with Bitcoin: Reddit uses the]",
+        "prefix": "incentives, there is the potential to build ",
+        "exact": "stronger decentralized networks",
+        "suffix": ". Reddit but with Bitcoin: Reddit uses the",
+        "offset": 3343,
+        "length": 31
+      }
+    ],
+    "relevance": 0.2
+  },
+  "http://d.opencalais.com/genericHasher-1/0ac1df4b-a01d-3199-90d0-b2bb94b35250": {
+    "_typeGroup": "entities",
+    "_type": "IndustryTerm",
+    "forenduserdisplay": "false",
+    "name": "e-commerce platform",
+    "_typeReference": "http://s.opencalais.com/1/type/em/e/IndustryTerm",
+    "instances": [
+      {
+        "detection": "[we can spark a new wave of apps. Decentralized ]e-commerce platform[: An ecommerce service that allows anyone in the]",
+        "prefix": "we can spark a new wave of apps. Decentralized ",
+        "exact": "e-commerce platform",
+        "suffix": ": An ecommerce service that allows anyone in the",
+        "offset": 2383,
+        "length": 19
+      }
+    ],
+    "relevance": 0.2
+  }
+}

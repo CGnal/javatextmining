@@ -1,0 +1,8 @@
+[{processedtextannotation:"bear"}] [{processedtextannotation:"in"}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	1.0
+(?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{processedtextannotation:/\Q,\E/}] [{processedtextannotation:"massachusetts"}]	1.0
+[{processedtextannotation:"bear"}] [{processedtextannotation:"in"}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3}) [{processedtextannotation:/\Q,\E/}] [{processedtextannotation:"massachusetts"}]	1.0
+[{processedtextannotation:"governor"}] [{processedtextannotation:"of"}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	1.0
+[{processedtextannotation:"politics"}] [{processedtextannotation:"in"}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	1.0
+[{processedtextannotation:"in"}] [{processedtextannotation:"central"}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	1.0
+[{patternlabel2:"PLACE"}] [{processedtextannotation:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	1.0
+[{processedtextannotation:"america"}] [{processedtextannotation:/\Q,\E/}]  (?$term [{tag:/NN.*/} & {ner:LOCATION}]{1,3})	1.0

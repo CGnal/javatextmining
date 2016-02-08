@@ -1,0 +1,94 @@
+[
+  {
+    "name": "London",
+    "category": "LOCATION"
+  },
+  {
+    "name": "this month",
+    "category": "DATE"
+  },
+  {
+    "name": "a week",
+    "category": "DURATION"
+  },
+  {
+    "name": "10 hour",
+    "category": "DURATION"
+  },
+  {
+    "name": "londoner",
+    "category": "MISC"
+  },
+  {
+    "name": "about 12 minute a day",
+    "category": "DURATION"
+  },
+  {
+    "name": "lunchtime",
+    "category": "DATE"
+  },
+  {
+    "name": "Vaidas Adomauskas",
+    "category": "PERSON"
+  },
+  {
+    "name": "once",
+    "category": "DATE"
+  },
+  {
+    "name": "currently",
+    "category": "DATE"
+  },
+  {
+    "name": "2.4",
+    "category": "NUMBER"
+  },
+  {
+    "name": "UK",
+    "category": "LOCATION"
+  },
+  {
+    "name": "Startupbootcamp",
+    "category": "LOCATION"
+  },
+  {
+    "name": "London",
+    "category": "LOCATION"
+  },
+  {
+    "name": "2015",
+    "category": "DATE"
+  },
+  {
+    "name": "MasterCard",
+    "category": "ORGANIZATION"
+  },
+  {
+    "name": "Stephane Wyper",
+    "category": "PERSON"
+  },
+  {
+    "name": "MasterCard Start path",
+    "category": "ORGANIZATION"
+  },
+  {
+    "name": "Lloyds Banking Group",
+    "category": "ORGANIZATION"
+  },
+  {
+    "name": "first",
+    "category": "ORDINAL"
+  },
+  {
+    "name": "Startupbootcamp Fintech",
+    "category": "ORGANIZATION"
+  },
+  {
+    "name": "Claire Calmejane",
+    "category": "PERSON"
+  },
+  {
+    "name": "Lloyds Banking Group",
+    "category": "ORGANIZATION"
+  }
+]

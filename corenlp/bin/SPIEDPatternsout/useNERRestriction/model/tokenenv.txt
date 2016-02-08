@@ -1,0 +1,4 @@
+edu.stanford.nlp.patterns.PatternsAnnotations$PatternLabel1###patternlabel1
+edu.stanford.nlp.patterns.PatternsAnnotations$PatternLabel3###patternlabel3
+edu.stanford.nlp.patterns.PatternsAnnotations$PatternLabel2###patternlabel2
+edu.stanford.nlp.patterns.PatternsAnnotations$ProcessedTextAnnotation###processedtextannotation
