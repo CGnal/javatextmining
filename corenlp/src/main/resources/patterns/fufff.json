@@ -1,0 +1,59 @@
+{
+  "cleanText": "Nine major banks have joined with fintech startup R3CEV LLC (R3) to develop a framework for using Blockchain technology in financial markets. The announcement of the partnership to design and deliver advanced distributed/shared ledger technologies to global financial markets includes some of the biggest names in global banking, including Barclays, BBVA, Commonwealth Bank of Australia (CBA), Credit Suisse, J.P. Morgan, State Street, Royal Bank of Scotland and UBS. Utilizing the Blockchain, the digital ledger that underpins Bitcoin, the group plans to collaborate on research, experimentation, design, and engineering with an aim of delivering advanced state-of-the-art enterprise-scale shared ledger solutions that also meet banking requirements for security, reliability, performance, scalability, and audit. Led by R3, the group will establish collaborative joint working groups to develop these efforts; many, if not all of its members have previously worked on ways of using the Blockchain in everyday business, with the likes of the CBA working on Blockchain financial settlements, and Barclays even going as far as accepting Bitcoin payments. Kevin Hanley, Director of Design at Royal Bank of Scotland explained why the group is coming together, saying in a statement Right now you're seeing significant money and time being spent on exploration of these technologies in a fractured way that lacks the strategic, coordinated vision so critical to timely success. The R3 model is changing the game. The collaborative model we've established with R3 and the other banks is a very effective way to deliver robust shared ledger solutions to the financial services sector, he said. Saving money. Cutting out the middleman in financial transactions is all about saving money, and that's what implementation of the Blockchain would mean for these big banks, let alone the fact that Blockchain transactions are quicker and more secure as well. These new technologies could transform how financial transactions are recorded, reconciled and reported… Senior Vice President and head of Emerging Technologies at State Street Hu Liang added, … all with additional security, lower error rates and significant cost reductions. The step to work together on the implementation of the Blockchain in financial markets is logical as banks and other financial institutions would need to agree to standards eventually, so it makes sense that some of the big names would be involved collaboratively in developing those standards. There were no time frames given by the group in terms of targets, however in theory working together on the Blockchain could see the platform takeover financial markets even quicker than many had already expected.\n",
+  "analysisResult": {
+    "extraction": {
+      "entities": [
+        {
+          "text": "Emerging Technologies",
+          "type": "ORGANIZATIONS",
+          "matches": [
+            {
+              "start": 2089,
+              "end": 2109,
+              "value": "Emerging Technologies"
+            }
+          ]
+        },
+        {
+          "text": "Royal Bank of Scotland and UBS",
+          "type": "ORGANIZATIONS",
+          "matches": [
+            {
+              "start": 436,
+              "end": 465,
+              "value": "Royal Bank of Scotland and UBS"
+            },
+            {
+              "start": 1190,
+              "end": 1211,
+              "value": "Royal Bank of Scotland"
+            }
+          ]
+        },
+        {
+          "text": "R3CEV LLC",
+          "type": "ORGANIZATIONS",
+          "matches": [
+            {
+              "start": 50,
+              "end": 58,
+              "value": "R3CEV LLC"
+            }
+          ]
+        },
+        {
+          "text": "JPMorgan Chase",
+          "type": "ORGANIZATIONS",
+          "matches": [
+            {
+              "start": 409,
+              "end": 419,
+              "value": "J.P. Morgan"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "960A032D8F244B6F8FC7593EBA0E6432"
+}

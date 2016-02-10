@@ -2,4 +2,5 @@ Each year, Capgemini, in partnership with RBC Wealth Management, conducts a f
 PERSON David Wilson
 PERSON Wilson
 ORGANIZATION Capgemini
+ORGANIZATION Capgemini
 ORGANIZATION RBC Wealth Management

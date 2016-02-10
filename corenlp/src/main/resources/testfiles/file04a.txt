@@ -1,0 +1,34 @@
+In the last decade, there were a bunch of really successful fintech companies that started in Europe. Companies like Klarna, Adyen or Transferwise (to name just a few) changed the way we do payments or the way we transfer money overseas. By pursuing radical new concepts, these fintech startups became some of Europe’s most valuable companies within just a few years. The financial technology sector is hot, the summer heat is on, so let’s look at Europe’s hottest fintech startups in 2015. In order to present you the  next wave  of Europe’s fintech disruptors, we scanned the market for the most promising startups out there that are not older than 3-4 years. And here is our list of Europe’s hottest fintech startups in 2015: Azimo: Founded in 2012 and headquartered in London, Azimo was created out of the founders frustration with the money transfer industry. They experienced so much waste, cost and poor customer service that they decided to create a better way to send money overseas. Well, the Azimo founders could have used Transferwise, which was founded two years before, but they chose to compete with them and especially with older money transfer providers like traditional banks. In total, the ambitious team behind Azimo already raised $31.6 million in venture capital. Bitbond: A peer-to-peer bitcoin lending platform with mission to make lending and borrowing globally accessible. Small businesses like ebay sellers who need to finance working capital and inventory list their loan request on Bitbond after going through a credit check. The loans get funded by individual and institutional lenders who thereby earn interest with their bitcoins. By leveraging bitcoin as a technology and payment network, Bitbond sees itself as the first global marketplace lender for small business loans. So far, the Berlin-based startup which was founded in 2013 raised about $940K in seed funding. Cashcloud: Started in 2012, Cashcloud aims to become the leading provider in eWallet solutions for community payments, cards (like credit cards and debit cards), couponing for deals and special localized offers via mobile Smartphones. Cashcloud’s mobile eWallet solution enables its users to exchange payments safely/easily and works with iOS and Android devices. The Luxembourg-based company raised about $3.3 million in venture capital so far. Centralway Numbrs: One App. Every Bank. Numbrs brings all of your bank accounts together in one easy-to-use app. The app analyses your spending behaviour and existing transactions to calculate your future income and expenses. It enables mobile bank tranfers the easy way. Numbrs saves all your financial transaction details for you so that sending money is just one click away. Launched in 2012 and headquartered in Zurich, Centralway Numbrs secured venture capital in a total of $11.5 million. Ensygnia: The London-based mobile interaction company behind the Onescan omni-channel app. Onescan enables mobile payments online, in-store and on-the-go and has applications for log-in, authentication and mobile identity. In the payments world Onescan allows customers and prospects to go from looking to buying in under 10 seconds. Ensygnia was founded in 2012 and secured roughly $6.6 million in venture capital so far.
+LOCATION Europe
+LOCATION Europe
+LOCATION Europe
+LOCATION Europe
+LOCATION Europe
+LOCATION London
+LOCATION London
+LOCATION Berlin
+LOCATION Luxembourg
+LOCATION Zurich
+ORGANIZATION ebay
+ORGANIZATION Klarna
+ORGANIZATION Adyen
+ORGANIZATION Transferwise
+ORGANIZATION Transferwise
+ORGANIZATION Bitbond
+ORGANIZATION Bitbond
+ORGANIZATION Bitbond
+ORGANIZATION Azimo
+ORGANIZATION Azimo
+ORGANIZATION Azimo
+ORGANIZATION Azimo
+ORGANIZATION Cashcloud
+ORGANIZATION Cashcloud
+ORGANIZATION Cashcloud
+ORGANIZATION Centralway Numbrs
+ORGANIZATION Numbrs
+ORGANIZATION Numbrs
+ORGANIZATION Ensygnia
+ORGANIZATION Ensygnia
+ORGANIZATION Onescan
+ORGANIZATION Onescan
+ORGANIZATION Onescan

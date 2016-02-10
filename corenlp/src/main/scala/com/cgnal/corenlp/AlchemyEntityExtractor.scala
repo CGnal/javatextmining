@@ -11,13 +11,46 @@ import com.typesafe.config.{Config, ConfigFactory}
 import spray.json._
 
 import scala.collection.immutable.IndexedSeq
+import scala.collection.mutable.ListBuffer
 import scala.concurrent.duration._
 import scala.concurrent.{Await, ExecutionContext, Future}
+
+object AlchemyEntityExtractor {
+
+
+  def enrichEntitiesWithHomonimous(entities: Seq[Entity]): Seq[Entity] = {
+
+    val akky = ListBuffer[Entity]()
+    val alreadyGot = ListBuffer[Entity]()
+
+    entities foreach { x =>
+      if (!(alreadyGot contains x)) {
+
+        val filtered = entities filter { y => ( x.name.contains(y.name) || y.name.contains(x.name)) && !y.name.equals(x.name )}
+
+        if (!filtered.isEmpty) {
+          val howManyOfThese = entities filter { z => z.name.equals(x.name) }
+
+            akky ++= (0 to modulus(filtered.length-howManyOfThese.length)).map(u=>x)
+
+          alreadyGot += x
+        }
+      }
+    }
+    akky ++= entities
+    akky
+  }
+
+  def modulus(x:Int):Int = if(x>0)x else -x
+
+
+}
+
 
 /**
   *
   */
-class AlchemyEntityExtractor(implicit val system: ActorSystem,implicit val execContext:ExecutionContext,implicit val materializer:ActorMaterializer) extends NamedEntityExtractor with HttpClient with SprayJsonSupport with DefaultJsonProtocol {
+class AlchemyEntityExtractor(implicit val system: ActorSystem, implicit val execContext: ExecutionContext, implicit val materializer: ActorMaterializer) extends NamedEntityExtractor with HttpClient with SprayJsonSupport with DefaultJsonProtocol {
 
   private val config: Config = ConfigFactory.load()
 
@@ -44,11 +77,11 @@ class AlchemyEntityExtractor(implicit val system: ActorSystem,implicit val execC
 
     val call: Future[HttpResponse] = executeCall(request)
 
-    val result: HttpResponse = Await.result(call, 30 seconds)
+    val result: HttpResponse = Await.result(call, 60 seconds)
 
     val eventualResult1: Future[AlchemyResponse] = Unmarshal(result.entity.withContentType(ContentTypes.`application/json`)).to[AlchemyResponse]
 
-    val result1: AlchemyResponse = Await.result(eventualResult1, 30 seconds)
+    val result1: AlchemyResponse = Await.result(eventualResult1, 60 seconds)
 
     val convertedResult = result1.entities.flatMap { e =>
 
@@ -56,7 +89,7 @@ class AlchemyEntityExtractor(implicit val system: ActorSystem,implicit val execC
 
       val entities: IndexedSeq[Entity] = (1 to howMany).map(r => Entity(e.text, entityTypesMap.getOrElse(e.entityType, "OTHER"))).filter(_.category != "OTHER")
 
-      entities
+      AlchemyEntityExtractor.enrichEntitiesWithHomonimous(entities)
     }
     convertedResult
   }
@@ -150,6 +183,4 @@ class AlchemyEntityExtractor(implicit val system: ActorSystem,implicit val execC
   //    }
   //    ]
   //  }
-
-
 }

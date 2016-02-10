@@ -1,0 +1,25 @@
+If you’re in the banking sector, there’s no doubt that you should be keeping a close eye to the Fintech industry. Besides providing innovative new technology and ideas for the banking industry, it’s also been estimated by Statista that  bank spending on new technologies was predicted to amount to $19.9 billion in 2017 in North America. Not only that, but these exciting Fintech startups also provide innovative solutions for the small business owner. If you are looking for low-cost solutions to your business accounting and finance needs, from invoicing to payroll to investing, the Fintech sector is an exciting space. Whether you’re just getting into Fintech or have been interested in the technology for some time, here are 30 top-notch Fintech startups located in the always-exciting Bay Area. Due.com. Due has recently redesigned the website of their invoicing service to allow greater ease of use. Clients can now design their own invoices, upload their company logos, and access an increased amount of data and reports from the Due.com dashboard in a snap. They also are a free invoicing service with 100’s of templates for business owners to use. SoFi. SoFi gives individuals an opportunity to refinance a number of debts including student and personal loans, mortgages, and MBA loans. SoFi also provides opportunities for investors. Planwise. Planwise was established with the core values of helping people with a simple way to gain the confidence and skills needed in financial planning. Their user-friendly software program guides customers as they evaluate their current financial situation, add monetary goals, and develop a plan-of-action to reach these goals. LendUp. LendUp offers an affordable alternative to traditional payday loans. Each loan has clear terms and can have an interest rate as low as 29. Their LendUp Ladder program allows borrowers who have made steady payments to obtain better rates and longer terms on future loans. Nok Nok Labs. Nok Nok Labs has developed innovative authentication technology for e-commerce consumers. They have assembled an experienced web security team who strive to provide superior customer service, as well as ongoing support and training for clients Trulioo. Trulioo developed an instant bank grade identity verification service called GlobalGateway.  It’s used with compliance systems across the globe to help payment providers and financial services comply with international Anti-Money Laundering (AML) and Know Your Customer (KYC) requirements worldwide. This is done easily through a single API integration. Plaid. Financial management applications have been brought into the future with the technology developed by Plaid. Plaid has technology that allows ACH verification to be completed in just seconds and allows banking data to be quickly accessed and organized into comprehensive statements. Wealthfront. Wealthfront is a fully automated investment management system. They have the most advanced software that can minimize tax liabilities and react to the changing economic conditions through a schedule of rebalancing investment portfolios.
+LOCATION North America
+LOCATION Bay Area
+ORGANIZATION Statista
+ORGANIZATION Due.com
+ORGANIZATION Due.com
+ORGANIZATION Due
+ORGANIZATION Due
+ORGANIZATION SoFi
+ORGANIZATION SoFi
+ORGANIZATION SoFi
+ORGANIZATION Planwise
+ORGANIZATION Planwise
+ORGANIZATION LendUp
+ORGANIZATION LendUp
+ORGANIZATION LendUp
+ORGANIZATION Nok Nok Labs
+ORGANIZATION Nok Nok Labs
+ORGANIZATION Trulioo
+ORGANIZATION Trulioo
+ORGANIZATION Plaid
+ORGANIZATION Plaid
+ORGANIZATION Plaid
+ORGANIZATION Wealthfront
+ORGANIZATION Wealthfront

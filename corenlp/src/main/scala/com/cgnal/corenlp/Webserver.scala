@@ -15,7 +15,7 @@ import scala.concurrent.ExecutionContext
 /**
   *
   */
-class WebServer(implicit val system: ActorSystem,implicit val execContext:ExecutionContext,implicit val materializer:ActorMaterializer) extends EntityExtractor with AkkaEnvironment  {
+class WebServer(implicit val system: ActorSystem, implicit val execContext: ExecutionContext, implicit val materializer: ActorMaterializer) extends EntityExtractor with AkkaEnvironment {
 
 
   private val logger = Logger(LoggerFactory.getLogger(this.getClass))
@@ -23,6 +23,7 @@ class WebServer(implicit val system: ActorSystem,implicit val execContext:Execut
   val alchemyEntityExtractor = new AlchemyEntityExtractor()
   val rosetteEntityExtractor = new RosetteEntityExtractor()
   val openCalaisEntityExtractor = new OpenCalaisEntityExtractor()
+  val cogitoEntityExtractor = new CogitoExtractor()
 
   val routes = {
     pathPrefix("rest") {
@@ -42,7 +43,7 @@ class WebServer(implicit val system: ActorSystem,implicit val execContext:Execut
               textAndEntities: TextAndEntities => {
 
                 val entities: List[Entity] = textAndEntities.entities
-                val entitiesByCategory: Map[String, List[Entity]] = entities.groupBy(_.category)
+                val entitiesByCategory: Map[String, List[Entity]] = Map("PERSON" -> Nil, "ORGANIZATION" -> Nil, "LOCATION" -> Nil) ++ entities.groupBy(_.category)
 
                 val expectedCounts: Set[EntityCategoryCount] = entitiesByCategory.map(x => {
                   val map: List[String] = x._2.map(_.name)
@@ -78,7 +79,13 @@ class WebServer(implicit val system: ActorSystem,implicit val execContext:Execut
                 val openCalaisEntities: Seq[Entity] = openCalaisEntityExtractor.extractEntitiesFromText(text)
                 val openCalaisStats: NamedEntityExtractionStats = computeStats("OPENCALAIS", entitiesByCategory, openCalaisEntities)
 
-                val result = NamedEntityExtractionResult(text = text, scores = Set(expectedStatistics, coreNLP, alchemyStats, rosetteStats,openCalaisStats))
+                /**
+                  * cogito
+                  */
+                val cogitoEntities: Seq[Entity] = cogitoEntityExtractor.extractEntitiesFromText(text)
+                val cogitoStats: NamedEntityExtractionStats = computeStats("COGITO", entitiesByCategory, cogitoEntities)
+
+                val result = NamedEntityExtractionResult(text = text, scores = Set(expectedStatistics, coreNLP, alchemyStats, rosetteStats, openCalaisStats, cogitoStats))
 
                 complete(result.toJson.prettyPrint)
               }
@@ -130,7 +137,7 @@ class WebServer(implicit val system: ActorSystem,implicit val execContext:Execut
 
     }
 
-    val panieppesci = searchGhostsAndUnmatched(entitiesNotMatchedList,entitiesLeftOversList)
+    val panieppesci = searchGhostsAndUnmatched(entitiesNotMatchedList, entitiesLeftOversList)
 
     val theGhosts: Seq[Entity] = panieppesci._1
     val theUnmatched: Seq[Entity] = panieppesci._2
@@ -151,20 +158,118 @@ class WebServer(implicit val system: ActorSystem,implicit val execContext:Execut
     coreNLP
   }
 
+  /**
+    * Compute the statistics for the named entity extractor
+    *
+    * @param serviceName
+    * @param expectedEntitiesByCategory
+    * @param extractedEntities
+    * @return
+    */
+  def computeAlchemyStats(serviceName: String, expectedEntitiesByCategory: Map[String, List[Entity]], extractedEntities: Seq[Entity]): NamedEntityExtractionStats = {
+
+    val actualEntitiesByCategory: Map[String, Seq[Entity]] = extractedEntities.groupBy(_.category)
+
+    val expectedCategories: Set[String] = expectedEntitiesByCategory.keySet
+    val entitiesCategory: Iterator[String] = expectedCategories.iterator
+
+    val accumulator = ListBuffer[EntityCategoryCount]()
+
+    //entities not matched
+    val entitiesNotMatchedList = ListBuffer[Entity]()
+    val entitiesLeftOversList = ListBuffer[Entity]()
+
+    while (entitiesCategory.hasNext) {
+
+      val entityCategory: String = entitiesCategory.next()
+      if (entityCategory.equals("PERSON")) {
+
+        val expectedEntityForCategory: List[Entity] = expectedEntitiesByCategory.getOrElse(entityCategory, List())
+        val actualEntityForCategory: Seq[Entity] = actualEntitiesByCategory.getOrElse(entityCategory, List())
+
+        val intersection = ListBuffer[Entity]()
+        val notMatched = ListBuffer[Entity]()
+
+
+        expectedEntityForCategory.map(x=>{
+          val filter = actualEntityForCategory.filter(z=>{ z.category.equals(x.category) &&( z.name.equals(x.name)|| z.name.contains(x.name) || x.name.contains(z.name))})
+
+          if(filter.length>0){
+            intersection += filter(0)
+          }
+          else {
+            notMatched += x
+          }
+        })
+
+        // those not found
+        val entitiesNotMatched: Seq[Entity] = expectedEntityForCategory.diff(actualEntityForCategory)
+        entitiesNotMatchedList ++= notMatched
+
+        // those matched not expected
+        val entitiesLeftOvers: Seq[Entity] = actualEntityForCategory.diff(expectedEntityForCategory)
+        entitiesLeftOversList ++= expectedEntityForCategory.diff(intersection)
+
+        accumulator += EntityCategoryCount(entityCategory, intersection.length, Some(intersection.map(_.name).toList))
+
+      }
+      else {
+        val expectedEntityForCategory = expectedEntitiesByCategory.getOrElse(entityCategory, List())
+
+        val actualEntityForCategory = actualEntitiesByCategory.getOrElse(entityCategory, List())
+
+        // those not found
+        val entitiesNotMatched: Seq[Entity] = expectedEntityForCategory.diff(actualEntityForCategory)
+        entitiesNotMatchedList ++= entitiesNotMatched
+
+        // those matched not expected
+        val entitiesLeftOvers: Seq[Entity] = actualEntityForCategory.diff(expectedEntityForCategory)
+        entitiesLeftOversList ++= entitiesLeftOvers
+
+        val intersection: Seq[Entity] = expectedEntityForCategory.intersect(actualEntityForCategory)
+
+        accumulator += EntityCategoryCount(entityCategory, intersection.length, Some(intersection.map(_.name).toList))
+      }
+
+    }
+
+    val panieppesci = searchGhostsAndUnmatched(entitiesNotMatchedList, entitiesLeftOversList)
+
+    val theGhosts: Seq[Entity] = panieppesci._1
+    val theUnmatched: Seq[Entity] = panieppesci._2
+
+    val length = theGhosts.length
+
+    val totalCoreNLP: Int = accumulator.foldLeft(0)(_ + _.count)
+
+    val coreNLP = NamedEntityExtractionStats(
+      serviceName,
+      totalCoreNLP,
+      categories = accumulator.toSet,
+      countGhosts = Some(length),
+      ghosts = Some(theGhosts.map(_.name).toList),
+      countUnmatched = Some(theUnmatched.length),
+      notMatched = Some(theUnmatched.map(_.name).toList)
+    )
+    coreNLP
+  }
+
+
   val port: Int = configuration.getInt(PORT)
   val host: String = configuration.getString(HOST)
 
 
-  def searchGhostsAndUnmatched(from: Seq[Entity], to: Seq[Entity]):(Seq[Entity],Seq[Entity]) = {
-    val theGhosts = (for{
+  def searchGhostsAndUnmatched(from: Seq[Entity], to: Seq[Entity]): (Seq[Entity], Seq[Entity]) = {
+    val theGhosts = (for {
       x <- from
       filtered = to.filter(_.name.equals(x.name))
-      rrrr =  if(filtered.isEmpty) filtered else List(filtered.head)
+      rrrr = if (filtered.isEmpty) filtered else List(filtered.head)
     } yield rrrr) flatten
 
-    (theGhosts,from.diff(theGhosts))
-  }
+    val theUnmatched = from.filter(x => !theGhosts.exists(_.name.equals(x.name)))
 
+    (theGhosts, theUnmatched)
+  }
 
 
   def start(): Unit = {
